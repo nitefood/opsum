@@ -6,6 +6,8 @@ This repository is structured as a **monorepo**: hardware design files, enclosur
 
 ## Features
 
+#### Current
+
 - **Real-time voltage, current, and power monitoring** based on the [INA226](https://www.ti.com/product/INA226) monitor IC and the [ESP32-S3](https://www.espressif.com/en/products/socs/esp32-s3) SoC.
 - [Kelvin-sensed](https://en.wikipedia.org/wiki/Four-terminal_sensing) shunt layout and full noise filtering (as per TI's [datasheet](https://www.ti.com/lit/ds/symlink/ina226.pdf), chapter *6.4.2 "Filtering and Input Considerations"*) for improved measurement accuracy.
 - **Reverse-polarity**, **overvoltage**, and **negative-voltage** protection circuitry.
@@ -14,6 +16,11 @@ This repository is structured as a **monorepo**: hardware design files, enclosur
 - **Galvanic isolation** protecting the host-side USB port from the PSU/DUT side.
 - Handles up to **36 V** bus voltage and **20 A** current.
 - Compact, low-cost, fully **open source hardware, firmware and software** project.
+
+#### Planned
+
+- I<sup>2</sup>C display showing real time telemetry from the board *(I<sup>2</sup>C pin header for the display is already present on the PCB, only needs designing the enclosure lid opening and in-firmware support)*
+
 
 ## Images
 Enclosure render (outside) | Enclosure render (inside)
