@@ -1,0 +1,1 @@
+pyinstaller.exe --noconfirm --onefile --windowed --distpath ../../../dist/ .\opsum_gui.pyw

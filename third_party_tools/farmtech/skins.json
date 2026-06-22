@@ -1,0 +1,33 @@
+{
+    "Custom (User Custom)": {
+        "volt": "#3498db",
+        "amp": "#e74c3c",
+        "watt": "#ffffff",
+        "bg": "#111111",
+        "obs": false
+    },
+
+    "Cyberpunk 2077": {
+        "volt": "#00f0ff",
+        "amp": "#ff0055", 
+        "watt": "#fcee0a", 
+        "bg": "#1a1a1d",
+        "obs": false
+    },
+
+    "Neon Glow": {
+        "volt": "#39ff14",
+        "amp": "#ff073a",
+        "watt": "#00ffff",
+        "bg": "#050505",
+        "obs": false
+    },
+
+    "Stealth Dark": {
+        "volt": "#aaaaaa",
+        "amp": "#777777",
+        "watt": "#ffffff",
+        "bg": "#121212",
+        "obs": false
+    }
+}

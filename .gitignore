@@ -1,0 +1,8 @@
+**/.vscode/*
+**/__pycache__/
+**/.pio
+/src/GUI/flash-tool/build/
+/src/GUI/opsum-gui/build/
+/src/GUI/flash-tool/*.spec
+/src/GUI/opsum-gui/*.spec
+notes/
