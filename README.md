@@ -1,10 +1,19 @@
 # OPSUM - Open PSU Monitor
 
-OPSUM is a **DC voltmeter and ammeter board** with 4mm banana socket inputs, that enables measuring and logging **voltage, current and power**, even when using a bench PSU that has no builtin telemetry feature. Communication between the board and the host happens via UART protocol over a dedicated USB port that is galvanically isolated from the PSU/DUT (*power supply unit and device under test*) side of the PCB, in order to protect the host-side (PC) from potentially destructive shorts or spikes happening on the DUT side.
+OPSUM is a **DC voltmeter and ammeter board** with 4mm banana socket inputs, that enables measuring and logging **voltage, current and power**, even when using a bench PSU that has no builtin telemetry feature. Communication between the board and the host happens via **UART protocol** over a dedicated USB port that is **galvanically isolated** from the PSU/DUT (*power supply unit and device under test*) side of the PCB, in order to protect the host-side (PC) from potentially destructive shorts or spikes happening on the DUT side.
 
-OPSUM is an **open source hardware, firmware and software project** based on the [ESP32-S3 SoC](https://www.espressif.com/en/products/socs/esp32-s3).
+This repository is structured as a **monorepo**: hardware design files, enclosure CAD files, firmware, host-side GUI tools, release binaries, communication protocol documentation, and third-party GUIs are kept together so you can build, flash, and evolve the project starting from a single source of truth.
 
-This repository is structured as a monorepo: hardware design files, enclosure CAD files, firmware, host-side GUI tools, release binaries, communication protocol documentation, and third-party GUIs are kept together so you can build, flash, and evolve the project starting from a single source of truth.
+## Features
+
+- **Real-time voltage, current, and power monitoring** based on the [INA226](https://www.ti.com/product/INA226) monitor IC and the [ESP32-S3](https://www.espressif.com/en/products/socs/esp32-s3) SoC.
+- [Kelvin-sensed](https://en.wikipedia.org/wiki/Four-terminal_sensing) shunt layout and full noise filtering (as per TI's [datasheet](https://www.ti.com/lit/ds/symlink/ina226.pdf), chapter *6.4.2 "Filtering and Input Considerations"*) for improved measurement accuracy.
+- **Reverse-polarity**, **overvoltage**, and **negative-voltage** protection circuitry.
+- PMOS input protection stage with zener-clamped gate drive.
+- TVS + Schottky protected INA VBUS input.
+- **Galvanic isolation** protecting the host-side USB port from the PSU/DUT side.
+- Handles up to **36 V** bus voltage and **20 A** current.
+- Compact, low-cost, fully **open source hardware, firmware and software** project.
 
 ## Images
 Enclosure render (outside) | Enclosure render (inside)
