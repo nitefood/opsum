@@ -42,9 +42,9 @@ If you want to flash a different firmware, or update/reflash the core firmware i
 
 ## Open Tooling Approach
 
-This repository includes everything, ranging from the basic OPSUM GUI plus third-party client-side tools that support the Core firmware communication protocol.
+This repository includes everything, ranging from the basic OPSUM GUI plus third-party client-side tools that support the Core firmware communication protocol, to enclosure CAD models, PCB layout design files, assembly guides and protocol specification documentation.
 
-You are free to use whichever compatible client (or firmware!) matches your needs.
+You are free to use whichever compatible client (or firmware) matches your needs.
 
 ## Repository Layout
 
