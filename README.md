@@ -1,4 +1,4 @@
-# OPSUM - Open PSU Monitor
+# OPSUM - The Open PSU Meter project
 
 OPSUM is a **DC voltmeter and ammeter board** with 4mm banana socket inputs, that enables measuring and logging **voltage, current and power**, even when using a bench PSU that has no builtin telemetry feature. Communication between the board and the host happens via **UART protocol** over a dedicated USB port that is **galvanically isolated** from the PSU/DUT (*power supply unit and device under test*) side of the PCB, in order to protect the host-side (PC) from potentially destructive shorts or spikes happening on the DUT side.
 
