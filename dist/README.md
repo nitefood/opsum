@@ -31,7 +31,7 @@ Current files:
   Minimal host-side GUI tool that communicates with the board and displays the Volt/Amp/Watt readings on screen.
 
 
-## Compiling the firmware from source
+## Compiling the core firmware from source
 
 The binaries are produced from MicroPython ESP32-S3 port with the project manifest.
 
@@ -45,5 +45,4 @@ cd "$MICROPYTHON_PORT_DIR"
 make BOARD=ESP32_GENERIC_S3 FROZEN_MANIFEST="$REPO_ROOT/src/Firmware/Core/manifest.py"
 
 cp build-ESP32_GENERIC_S3/micropython.bin "$REPO_ROOT/dist/firmware-s3-OTA.bin"
-cp build-ESP32_GENERIC_S3/firmware.bin "$REPO_ROOT/dist/firmware-s3-FULL.bin"
 ```
