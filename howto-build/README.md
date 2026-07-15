@@ -116,17 +116,17 @@ Cut the following pieces of 12AWG wire and use this table as a reference for sol
 
 | Pad name | Color | Wire Length
 | --- | --- | --- |
-| PSU+ | RED | 10.5mm |
-| PSU- | BLACK | 14mm |
-| PROBE+ | RED | 10.5mm |
-| DUT+ | RED | 7mm |
-| DUT- | BLACK | 12mm |
+| PSU+ | RED | 10.5cm |
+| PSU- | BLACK | 14cm |
+| PROBE+ | RED | 10.5cm |
+| DUT+ | RED | 7cm |
+| DUT- | BLACK | 12cm |
 
 ---
 
 ### 7. Strip, crimp and solder the wires
 
-First of all, strip each end of the wire, exposing ~2mm of copper on each side:
+First of all, strip each end of the wire, exposing ~1cm of copper on each side:
 
 ![](../images/assembly/photo_16.jpg)
 
