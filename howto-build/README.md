@@ -47,7 +47,7 @@ The rods will be used as **led guides** for a better aesthetic look. Cut a singl
 - 2 x **20.5mm**
 - 1 x **16.5mm**
 
-Then push them into the enclosure lid holes until they fit firmly. The two **longer** rods will be the _3V3_ and _5V_ led guides, and the **shorter** one will serve as the _Status_ led guide.
+Then push them into the enclosure lid holes (from the back side, as displayed in the picture) until they fit firmly. The two **longer** rods will be the _3V3_ and _5V_ led guides, and the **shorter** one will serve as the _Status_ led guide.
 
 Optionally sand the ends of the cut rods to make them look smoother, using the rotary tool or a suitable tip of your grinding pen, or some fine grit sandpaper.
 
@@ -158,7 +158,7 @@ Eventually the board should look like this. Make sure the Probe+ wire doesn't to
 
 ### 8. Flash the firmware to the ESP32-S3 MCU
 
-Connect a USB-C cable **from your PC to the MCU USB PORT** _(Note: make sure you connect to the **MCU USB port, not the other USB port**, otherwise your PC won't recognize the ESP32 board)_
+Connect a USB-C cable **from your PC to the MCU USBC PORT** _(Note: make sure you connect to the **MCU USB port, not the other (isolated) USB port**, otherwise your PC won't recognize the ESP32 board)_
 
 Then flash the `firmware-s3-FULL.bin` on the board using `esptool`. 
 
@@ -188,7 +188,7 @@ Finally, place the lid _(make sure the led guides fit between the wires, if you 
 
 ![](../images/assembly/photo_27.jpg)
 
-Connect the board's other USB-C port to the PC, and connect to it using the included [GUI](../dist/opsum_gui.exe) or one of the [third party tools](../third_party_tools)
+Connect the board's isolated USBC port to the PC, and connect to it using the included [GUI](../dist/opsum_gui.exe) or one of the [third party tools](../third_party_tools)
 
 > Note: if your PC doesn't recognize the board as a COM port, make sure you have the correct CH340 drivers installed. These are the official driver download links depending on your OS:
 >
