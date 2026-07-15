@@ -63,7 +63,7 @@ Install the banana sockets into the enclosure base, and tighten them using the i
 
 ### 3. Solder the PCB pads and ESP32-S3-Zero breakout board
 
-Solder the exposed PCB pads using **flux** and a **large soldering tip**, with a high enough (~400-420°C) temperature to comfortably melt the solder and cover as much of the pads area as possible:
+Tin the exposed PCB pads using **flux** and a **large soldering tip**, with a high enough (~400-420°C) temperature to comfortably melt the solder and cover as much of the pads area as possible:
 
 ![](../images/assembly/photo_10.jpg)
 
