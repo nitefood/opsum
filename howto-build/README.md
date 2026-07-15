@@ -43,6 +43,7 @@ Then push them into the enclosure lid holes (from the back side, as displayed in
 
 Optionally sand the ends of the cut rods to make them look smoother, using the rotary tool or a suitable tip of your grinding pen, or some fine grit sandpaper.
 
+> Tip: when cutting the rods with your dremel/grinding pen, make sure you proceed at the **lowest possible speed**: acrylic melts easily with heat, and taking it slow ensures a cleaner, smoother and way more precise result (even without sanding). Try rotating the rod with your fingers while keeping the rotating blade firm and steady in your other hand.
 
 ![](../images/assembly/photo_3.jpg)
 
