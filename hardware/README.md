@@ -37,7 +37,7 @@ This folder hosts electrical and manufacturing design assets for the OPSUM PCB.
 6. Click Next, then Next.
 7. Add the [BOM](./jlcpcb/production_files/BOM-Open_PSU_Meter_ESP32.csv) and [CPL](./jlcpcb/production_files/CPL-Open_PSU_Meter_ESP32.csv) files, then click  **Process BOM & CPL**
 8. Ignore the warning (*"The below parts won't be assembled due to data missing.
-U3,PS1 designators don't exist in the BOM file."*). This is intentional, since those parts (ESP32-S3-Zero breakout board and isolated DC/DC converter) are to be sourced externally and hand soldered on the PCB. More on that [below](#hand-soldering-guide-for-through-hole-components).
+U3,PS1 designators don't exist in the BOM file."*). This is intentional, since those parts (ESP32-S3-Zero breakout board and isolated DC/DC converter) are to be sourced externally and hand soldered on the PCB. Refer to the [howto-build](../howto-build/README.md) guide for details.
 9. Review the matched parts and ensure all are in stock. Click Next.
 10. **Carefully check part orientation on the board**. Sometimes their automated system fails to correctly orient the components on the pads. In my case, I had to re-orient **U1** and **Q1**. Just **click the component to select it**, and **press the space key** until they're in the correct orientation (the purple dot should align with the white silkscreen dot/arrow). They should look like this:
 
@@ -49,4 +49,4 @@ U3,PS1 designators don't exist in the BOM file."*). This is intentional, since t
 
 ## Hand Soldering Guide for through hole components
 
-> Coming soon
+Once the board is manufactured and the enclosure is printed, refer to the [How To Build](../howto-build/README.md) section to finish assembling the tool.

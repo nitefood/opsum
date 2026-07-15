@@ -49,7 +49,7 @@ If you want to build the project yourself, the step-by-step approach is:
 
 1. **Manufacture the board** using a third party PCB fab house (I've used [JLCPCB](https://jlcpcb.com/?from=DUYEWB) with great results, so tolerances and specs are guaranteed to comply with their capabilities, but any fab house should be easily capable to manufacture this board). **Gerbers, BOM and CPL** files alongside required production settings and instructions for PCB manufacturing and assembly are all in the [hardware](/hardware/) section.
 	> Disclaimer: the JLCPCB link above is a referral URL, I get a little kickback if you use it to subscribe or buy from them. Thanks for your support!
-2. **Solder the remaining through-hole components on the PCB** using the instruction under [hardware](/hardware/). I've included a bill of material for THT and hand-assembly components required to complete the project, complete with links to AliExpress to source them.
+2. **Solder the remaining through-hole components on the PCB** using the instruction under [howto-build](/howto-build/). I've included a bill of material for THT and hand-assembly components required to complete the project, complete with links to AliExpress to source them.
 3. **First-flash the new ESP32-S3 board** with the `-FULL` image (using `esptool`). Prebuilt binaries and usage instructions for `esptool` are in the [dist](dist/) section.
 4. **3D print the enclosure and assemble the finished product**. Instructions are under [enclosure](/enclosure/).
 5. **Connect the USB port to your PC and use a client-side program** to interface with the OPSUM board and receve its readings. I've included a [minimal GUI](dist/opsum_gui.exe), alongside with fully featured [third party tools](third_party_tools/) compatibile with OPSUM's core firmware [protocol](./protocol-specs/core-uart.md).
@@ -73,8 +73,9 @@ You are free to use whichever compatible client (or firmware) matches your needs
 | [src/GUI/flash-tool/](src/GUI/flash-tool/) | desktop DFU flashing GUI source code |
 | [src/GUI/opsum-gui/](src/GUI/opsum-gui/) | minimal OPSUM runtime GUI frontend source code |
 | [third_party_tools/](third_party_tools/) | bundled alternative host-side tools and board-side firmware binaries |
-| [hardware/](hardware/) | schematic, PCB layout, BOM, CPL, Gerbers, manufacturing and THT component soldering step-by-step guide |
-| [enclosure/](enclosure/) | CAD files and assembly instructions for the OPSUM case |
+| [hardware/](hardware/) | schematic, PCB layout, BOM, CPL, Gerbers and manufacturing guide |
+| [enclosure/](enclosure/) | CAD files for the OPSUM case |
+| [howto-build/](howto-build/) | Manual assembly and soldering step-by-step instructions for the OPSUM board project |
 
 ## Contributing
 

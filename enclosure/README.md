@@ -19,4 +19,4 @@ The enclosure can be printed with standard settings, in **PLA** or **PETG** mate
 
 ## Assembly Guide
 
-> Coming soon
+Refer to the [How To Build](../howto-build/README.md) section for a detailed step-by-step assembly guide for the OPSUM board.

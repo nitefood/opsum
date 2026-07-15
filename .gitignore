@@ -6,3 +6,4 @@
 /src/GUI/flash-tool/*.spec
 /src/GUI/opsum-gui/*.spec
 notes/
+/third_party_tools/farmtech/*.json
