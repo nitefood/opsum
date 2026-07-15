@@ -1,6 +1,6 @@
-# Assemble the OPSUM board
+# Assembling the OPSUM board (step-by-step visual guide)
 
-This is a simple visual guide for assembling an OPSUM board.
+![](../images/assembly/photo_2.jpg)
 
 ## Materials required
 
@@ -33,15 +33,7 @@ Make sure you have the following tools:
 
 ## Assembly steps
 
-### 1. Gather the components
-
-Pictured here are all the required components, laid out on a soldering mat:
-
-![](../images/assembly/photo_2.jpg)
-
----
-
-### 2. _[OPTIONAL]_ Cut the acrylic rods and fit them into the lid
+### 1. _[OPTIONAL]_ Cut the acrylic rods and fit them into the lid
 
 The rods will be used as **led guides** for a better aesthetic look. Cut a single rod into **3** smaller rods with these specific sizes using your grinding pen:
 - 2 x **20.5mm**
@@ -56,7 +48,7 @@ Optionally sand the ends of the cut rods to make them look smoother, using the r
 
 ---
 
-### 3. Install the banana sockets
+### 2. Install the banana sockets
 
 Install the banana sockets into the enclosure base, and tighten them using the included metal rings.
 
@@ -68,7 +60,7 @@ Install the banana sockets into the enclosure base, and tighten them using the i
 
 ---
 
-### 4. Solder the PCB pads and ESP32-S3-Zero breakout board
+### 3. Solder the PCB pads and ESP32-S3-Zero breakout board
 
 Solder the exposed PCB pads using **flux** and a **large solder tip**, with a high enough (~400-420°C) temperature to comfortably melt the solder and cover as much of the pads area as possible.
 
@@ -90,7 +82,7 @@ This is what the breakout board should look like after soldering each pin:
 
 ---
 
-### 5. Install and solder the through hole components
+### 4. Install and solder the through hole components
 
 Fit the breakout board whose pins you soldered before:
 
@@ -110,7 +102,7 @@ This is what the board should look like once every **through-hole component** an
 
 ---
 
-### 6. Prepare the 12AWG wires
+### 5. Prepare the 12AWG wires
 
 Cut the following pieces of 12AWG wire and use this table as a reference for soldering them to the pads later:
 
@@ -124,7 +116,7 @@ Cut the following pieces of 12AWG wire and use this table as a reference for sol
 
 ---
 
-### 7. Strip, crimp and solder the wires
+### 6. Strip, crimp and solder the wires
 
 First of all, strip each end of the wire, exposing ~1cm of copper on each side:
 
@@ -156,7 +148,7 @@ Eventually the board should look like this. Make sure the Probe+ wire doesn't to
 
 ---
 
-### 8. Flash the firmware to the ESP32-S3 MCU
+### 7. Flash the firmware to the ESP32-S3 MCU
 
 Connect a USB-C cable **from your PC to the MCU USBC PORT** _(Note: make sure you connect to the **MCU USB port, not the other (isolated) USB port**, otherwise your PC won't recognize the ESP32 board)_
 
@@ -168,7 +160,7 @@ Then flash the `firmware-s3-FULL.bin` on the board using `esptool`.
 
 ---
 
-### 9. Insert the PCB into the case and connect the sockets
+### 8. Insert the PCB into the case and connect the sockets
 
 Place the PCB in the enclosure base, and secure it using **four M2.5 screws**:
 
